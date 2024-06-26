@@ -89,3 +89,7 @@ Generate the assembly code in risc v compiler
 Calculate the value by the calculator in programming mode in hexadecimal
 
 ![Screenshot (500)](https://github.com/trjerish/VSD-Internship/assets/155642455/9adf7d96-afca-4061-86d7-debc2f27058f)
+Task 2 is Completed
+***
+
+## Task 3
