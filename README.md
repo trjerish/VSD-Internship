@@ -82,3 +82,6 @@ output for the programm is
 
 ![Screenshot (497)](https://github.com/trjerish/VSD-Internship/assets/155642455/aaebf56e-92ee-4762-9c52-21f9f5979769)
 
+Generate the assembly code in risc v compiler
+
+Calculate the value by the calculator in programming mode in hexadecimal
