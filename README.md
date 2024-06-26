@@ -44,3 +44,35 @@ Task 1 is Completed
 ***
 
 ## Task 2
+In this task 2 then you create a new directory and the use the clockdivider then find the programm for the clock divider check the output 
+![Screenshot (498)](https://github.com/trjerish/VSD-Internship/assets/155642455/52a530d3-847a-4cd5-8f6b-3b6480268b9f)
+
+Programm for the clock divider signal crafting
+
+
+#include <stdio.h>
+#include <stdbool.h>
+
+// Define the clock divider factor
+#define CLOCK_DIVIDER 1000
+
+// Function to simulate the clock divider
+void clock_divider(int divider, int max_cycles) {
+    int counter = 0;
+    bool clock_out = false;
+    
+    for (int i = 0; i < max_cycles; ++i) {
+        counter++;
+        if (counter >= divider) {
+            counter = 0;
+            clock_out = !clock_out; // Toggle the clock output
+            printf("Clock cycle %d: Clock out state = %d\n", i, clock_out);
+        }
+    }
+}
+
+int main() {
+    int max_cycles = 10000; // Number of clock cycles to simulate
+    clock_divider(CLOCK_DIVIDER, max_cycles);
+    return 0;
+}
