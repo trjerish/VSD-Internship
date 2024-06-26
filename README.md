@@ -1,3 +1,3 @@
 # VSD-Internship 
 ### PROJECT
-Clock Divider circuit for crafting the signal within the desired time period
+Clock Cycle Divider - Crafting A Digital Clock Divider Circuit
