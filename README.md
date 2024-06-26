@@ -21,6 +21,7 @@ In this section, we'll explore how C code is reprsented in the instruction set o
      Now the leafpad is opened in which the required code for the title is typed respectively.
 ![Picture 1](https://github.com/trjerish/VSD-Internship/assets/155642455/4560e034-d41c-4417-987d-0b58a7e5f41a)
 To check the output in leafpad use this
+![Picture 2](https://github.com/trjerish/VSD-Internship/assets/155642455/5549d252-8100-4cb3-8ea2-3cbfec7ce9e2)
 ### Command
      The terminal is opened to obtain the output.
      The gcc _filename_.c is given with the extension of .c 
