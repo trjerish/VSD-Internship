@@ -50,14 +50,14 @@ In this task 2 then you create a new directory and the use the clockdivider then
 Programm for the clock divider signal crafting
 
 
-#include <stdio.h>
-#include <stdbool.h>
+    #include <stdio.h>
+    #include <stdbool.h>
 
-// Define the clock divider factor
-#define CLOCK_DIVIDER 1000
+    // Define the clock divider factor
+    #define CLOCK_DIVIDER 1000
 
-// Function to simulate the clock divider
-void clock_divider(int divider, int max_cycles) {
+    // Function to simulate the clock divider
+    void clock_divider(int divider, int max_cycles) {
     int counter = 0;
     bool clock_out = false;
     
@@ -69,10 +69,12 @@ void clock_divider(int divider, int max_cycles) {
             printf("Clock cycle %d: Clock out state = %d\n", i, clock_out);
         }
     }
-}
+    }
 
-int main() {
-    int max_cycles = 10000; // Number of clock cycles to simulate
-    clock_divider(CLOCK_DIVIDER, max_cycles);
-    return 0;
-}
+     int main() {
+     int max_cycles = 10000; // Number of clock cycles to simulate
+     clock_divider(CLOCK_DIVIDER, max_cycles);
+     return 0;
+     }
+     ![Screenshot (499)](https://github.com/trjerish/VSD-Internship/assets/155642455/9d938098-28cd-48f8-a955-110166268c82)
+
