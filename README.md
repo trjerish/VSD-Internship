@@ -1,4 +1,4 @@
-# VSD-Internship 
+ # VSD-Internship 
 ### PROJECT
 Clock Cycle Divider - Crafting A Digital Clock Divider Circuit
 ***
@@ -106,15 +106,15 @@ Verifying the outputs
 Debugging the instruction
 Before Debugging, open the assembly code of your project in a newtab and enter the below command to view the assembly code.
 ## command
-   riscv64-unknown-elf-objdump -d clkdiv.o | less
+       riscv64-unknown-elf-objdump -d clkdiv.o | less
 
 ![Screenshot (507)](https://github.com/trjerish/VSD-Internship/assets/155642455/74fcf9a5-9c22-4bfe-8255-3f6fd552061e)
 
 We can also enter a command from where the instruction needed to be debugged (i.e) All the instruction before that address will be executed.
 (spike) until pc 0 100b0 // we can start debugging from this address
 ## command
-   (spike) until pc 0 100b0 // we can start debugging from this address
-   (spike) reg 0 a5 // the content before executing the instruction will be displayed
+       (spike) until pc 0 100b0 // we can start debugging from this address
+       (spike) reg 0 a5 // the content before executing the instruction will be displayed
 
 ![Screenshot (508)](https://github.com/trjerish/VSD-Internship/assets/155642455/f78d909a-f0ee-4ae5-b4f9-b1f45dd1adce)
 
