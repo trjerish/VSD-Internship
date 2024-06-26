@@ -12,3 +12,6 @@ R.M.K Engineering College
 + Scalability: Suitable for a wide range of applications from microcontrollers to supercomputers.
 + Community Support: Strong backing from a global community of developers and companies.
 ***
+## Task 1
+### C Code implementation in Leafpad
+In this section, we'll explore how C code is reprsented in the instruction set of the RISC-V tool. We'll start by testing the GCC compiler with a simple program that counts the sum of numbers from 1 to n. STEP 1: Write the C program that counts the sum of numbers from 1 to n in the Leafpad editor(open source graphical text editor) and save the code.
