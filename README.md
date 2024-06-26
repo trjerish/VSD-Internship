@@ -93,3 +93,37 @@ Task 2 is Completed
 ***
 
 ## Task 3
+Execution of SPIKE Simulation and verification with O1 and Ofast command along with running the RISC-V Objdmp.
+The task 3 involves the execution of spike simulation and also consisting of debug of the Assembly code that is generated for the previous program.
+Verifying the outputs
+## command
+   gcc clkdiv.c
+   ./a.out
+   riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o clkdiv.o clkdiv.c
+   spike pk clkdiv.o
+![Screenshot (506)](https://github.com/trjerish/VSD-Internship/assets/155642455/7ae4e1fe-6af8-488e-95dc-37d114472f4e)
+
+Debugging the instruction
+Before Debugging, open the assembly code of your project in a newtab and enter the below command to view the assembly code.
+## command
+   riscv64-unknown-elf-objdump -d clkdiv.o | less
+
+![Screenshot (507)](https://github.com/trjerish/VSD-Internship/assets/155642455/74fcf9a5-9c22-4bfe-8255-3f6fd552061e)
+
+We can also enter a command from where the instruction needed to be debugged (i.e) All the instruction before that address will be executed.
+(spike) until pc 0 100b0 // we can start debugging from this address
+## command
+   (spike) until pc 0 100b0 // we can start debugging from this address
+   (spike) reg 0 a5 // the content before executing the instruction will be displayed
+
+![Screenshot (508)](https://github.com/trjerish/VSD-Internship/assets/155642455/f78d909a-f0ee-4ae5-b4f9-b1f45dd1adce)
+
+Now press enter to view the instruction of the given first address and follow the above command to view the content of a5 after execution,
+similarly the contents of stack pointer before and after execution of that instruction can also viewed as shown below.Similarly continue pressing the ENTER to view the next significant instruction.
+
+![Screenshot (509)](https://github.com/trjerish/VSD-Internship/assets/155642455/a5994ef2-4e10-4231-b259-7c8e78de78ad)
+
+Task 3 is Completed
+***
+
+
