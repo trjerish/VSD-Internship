@@ -76,5 +76,9 @@ Programm for the clock divider signal crafting
      clock_divider(CLOCK_DIVIDER, max_cycles);
      return 0;
      }
-     ![Screenshot (499)](https://github.com/trjerish/VSD-Internship/assets/155642455/9d938098-28cd-48f8-a955-110166268c82)
+![Screenshot (499)](https://github.com/trjerish/VSD-Internship/assets/155642455/9d938098-28cd-48f8-a955-110166268c82)
+
+output for the programm is
+
+![Screenshot (497)](https://github.com/trjerish/VSD-Internship/assets/155642455/aaebf56e-92ee-4762-9c52-21f9f5979769)
 
