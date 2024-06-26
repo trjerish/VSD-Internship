@@ -97,10 +97,10 @@ Execution of SPIKE Simulation and verification with O1 and Ofast command along w
 The task 3 involves the execution of spike simulation and also consisting of debug of the Assembly code that is generated for the previous program.
 Verifying the outputs
 ## command
-   gcc clkdiv.c
-   ./a.out
-   riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o clkdiv.o clkdiv.c
-   spike pk clkdiv.o
+      gcc clkdiv.c
+      ./a.out
+      riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o clkdiv.o clkdiv.c
+      spike pk clkdiv.o
 ![Screenshot (506)](https://github.com/trjerish/VSD-Internship/assets/155642455/7ae4e1fe-6af8-488e-95dc-37d114472f4e)
 
 Debugging the instruction
