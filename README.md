@@ -38,3 +38,7 @@ To generate assembly code is generated in the risc v compiler
 This assemby code then can be further reduced to some extend by the command
 ### Command
          riscv64-unknown-elf-objdump -d sum1ton.o | less
+![Picture 4](https://github.com/trjerish/VSD-Internship/assets/155642455/f2037656-4701-48d1-b906-683efef4fb39)
+
+Task 1 is Completed
+***
