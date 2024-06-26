@@ -11,3 +11,4 @@ R.M.K Engineering College
 + Simplicity: Simplified instruction set for efficient execution.
 + Scalability: Suitable for a wide range of applications from microcontrollers to supercomputers.
 + Community Support: Strong backing from a global community of developers and companies.
+***
