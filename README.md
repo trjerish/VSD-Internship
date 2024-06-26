@@ -31,3 +31,10 @@ where lp is the long point integer of 64 bit -O1 is the options to compile the c
 ### Command
            riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ![Picture 3](https://github.com/trjerish/VSD-Internship/assets/155642455/d398423b-96b4-4fea-9491-4249fb7aa1eb)
+### To Generate Assembly Code
+To generate assembly code is generated in the risc v compiler
+### Command
+         riscv64-unknown-elf-objdump -d sum1ton.o
+This assemby code then can be further reduced to some extend by the command
+### Command
+         riscv64-unknown-elf-objdump -d sum1ton.o | less
