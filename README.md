@@ -136,7 +136,8 @@ Here are the steps:
 + Fill in the fields (opcode, rd, funct3, rs1, rs2, funct7, imm) to construct the 32-bit binary instruction.
 
 ## Instructions
-+ For R-type: 
++ For R-type:
+ 
        opcode[6:0] | rd[11:7] | funct3[14:12] | rs1[19:15] | rs2[24:20] | funct7[31:25]
 + For I-type:
        opcode[6:0] | rd[11:7] | funct3[14:12] | rs1[19:15] | imm[31:20]
