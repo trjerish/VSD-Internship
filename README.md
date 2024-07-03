@@ -140,14 +140,19 @@ Here are the steps:
  
        opcode[6:0] | rd[11:7] | funct3[14:12] | rs1[19:15] | rs2[24:20] | funct7[31:25]
 + For I-type:
+  
        opcode[6:0] | rd[11:7] | funct3[14:12] | rs1[19:15] | imm[31:20]
 + For S-type:
+
        opcode[6:0] | imm[4:0][11:7] | funct3[14:12] | rs1[19:15] | rs2[24:20] | imm[11:5][31:25]
 + For B-type:
+  
        opcode[6:0] | imm[11][7] | imm[4:1][11:8] | funct3[14:12] | rs1[19:15] | rs2[24:20] | imm[10:5][31:25] | imm[12][31]
 + For U-type:
+  
        opcode[6:0] | rd[11:7] | imm[31:12]
 + For J-type:
+  
        opcode[6:0] | rd[11:7] | imm[19:12][20] | imm[10:1][11] | imm[31:21]
 
 ## 1.ADD r1, r2, r3
@@ -347,3 +352,5 @@ rs1: r11 = 01011    rs2: r2 = 00010   rd: r15 = 01111
    | ------------- | ----------- |
    |SLL r15, r11,R2|     R       |
 
+Task 4 is Completed
+***
